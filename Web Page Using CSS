@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale1">
+<title>CSS Web Page</title>
+<style>
+body{
+margin:0;
+padding:0;
+line-height:1.5cm;
+}
+#header{
+background:black;
+font-family:Arial;
+height:100px;
+}
+#contentwrapper{
+float:left;
+width:100%;
+}
+#contetcolumn{
+margin:0 230px 230px;
+}
+#leftcolumn{
+float:left;
+width:230px;
+margin-left:-100%;
+background:#24C8FF;
+}
+#rightcolumn{
+float:left;
+width:230px;
+margin-right:-230px;
+background:#FFFB00;
+}
+.innertext{
+margin:200px;
+font-family:Arial;
+color:#5E5E5E;
+}
+#footer{
+clear:left;/*cannot float on left*/
+width:100%;
+background:black;
+color:#FFF;
+font-family:Arial;
+text-align:center;
+padding:4px;
+}
+
+/*#### Navigation Bar ####*/
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+background-color:#000;
+}
+li{
+float:left;
+border-right:1px solid #bbb;
+}
+li:last-child;
+border-right:none;
+}
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+li a:hover:not(.active){
+background-color: #808080;
+}
+.active{
+background-color: #0099FF;
+}
+
+/* ##### responsive layout css ##### */
+@media (max-width:840px){/*Drop right column down */
+#leftcolumn{
+margin-left:-100;
+}
+#rightcolumn{
+float:none;
+width:100%;
+margin-left:0;
+clear:both;
+}
+#content-column{
+margin-right:0; /*set margin to leftcolumnwidth*/
+}
+}
+@media (max-width:600px){/*Drop left column down*/
+#leftcolumn{
+float:none;
+width:100%;
+clear:both;
+margin-left:0;
+}
+#contentcolumn{
+margib-left:0;
+}
+}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<ul style="display:inline;">
+<li><a class="active" href="#home">Home</a></li>
+<li><a href="#news">About</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#about">News</a></li>
+</ul>
+</div>
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertext">
+The Lightning Arrester has one terminal that is designed to handle very high voltage and another terminal connected to the ground .
+Lightning Arrester are not the same thing as Lightning rods . Lightning rods are used to protect entire buildings and other structures from lightning damage . They are placed with the goal of getting lightning to strike the rod first and dissipate out through a grounding case . 
+
+2.1 WORKING PRINCIPLE OF LIGHTNING ARRESTER 
+The earthing screen and ground wires can well protect the electrical system  against   the  direct  lightning  strokes   but  they  fail   to   provide protection against travelling waves , which may reach the terminal apparatus .The Lightning Arrester or surge diverts provide protection against such surges . A Lightning Arrester or a surge diverted is a protective device ,  which conducts the high voltage surges on power system to the ground .
+It consists of a spark gap in series with a non-linear resistor  . One end of the diverter is connected to the terminal of the equipment to be protected and the other end is effectively grounded .
+The length of the gap is so set that normal voltage is not enough to cause an arc but a dangerously high voltage will break down the air insulation and form an arc .The property of the non-linear resistance is that its resistance increases as voltage ( or current ) increases and vice-versa .
+
+2.2 ADVANTAGE OF LIGHTNING ARRESTER   
+•	They are not very expensive .
+•	They are improved formof rod gap arresters as they block the flow of power frequency follow currents .
+•	They can be easily installed .
+
+2.3 LIMITATIONS 
+•	An expulsion type arrester can perform only limited number of operations as during each operation some of the fiber materials is used up .
+•	This type of arrester cannot be mounted on enclosed equipment due to discharge of gases during operation .
+•	Due to the poor volt/am characteristic of the arrester , it is not suitable for protection of expensive equipment .
+
+2.4 MAINTENANCE OF LIGHTNING ARRESTERS
+•	Cleaning the outside of the arrester housing .
+•	The line should be de-energized before handling the arrester .
+•	The earth connection should be checked periodically .
+•	To record the readings of the surge counter .
+•	The line lead is securely fastened to the line conductor and arrester 
+•	The ground lead is securely fastened to the arrester terminal and ground .
+
+</div>
+</div>
+</div>
+<div id="leftcolumn">
+<div class="innertext">
+The Lightning Arrester has one terminal that is designed to handle very high voltage and another terminal connected to the ground .
+Lightning Arrester are not the same thing as Lightning rods . Lightning rods are used to protect entire buildings and other structures from lightning damage . They are placed with the goal of getting lightning to strike the rod first and dissipate out through a grounding case . 
+
+2.1 WORKING PRINCIPLE OF LIGHTNING ARRESTER 
+The earthing screen and ground wires can well protect the electrical system  against   the  direct  lightning  strokes   but  they  fail   to   provide protection against travelling waves , which may reach the terminal apparatus .The Lightning Arrester or surge diverts provide protection against such surges . A Lightning Arrester or a surge diverted is a protective device ,  which conducts the high voltage surges on power system to the ground .
+It consists of a spark gap in series with a non-linear resistor  . One end of the diverter is connected to the terminal of the equipment to be protected and the other end is effectively grounded .
+The length of the gap is so set that normal voltage is not enough to cause an arc but a dangerously high voltage will break down the air insulation and form an arc .The property of the non-linear resistance is that its resistance increases as voltage ( or current ) increases and vice-versa .
+
+2.2 ADVANTAGE OF LIGHTNING ARRESTER   
+•	They are not very expensive .
+•	They are improved formof rod gap arresters as they block the flow of power frequency follow currents .
+•	They can be easily installed .
+
+2.3 LIMITATIONS 
+•	An expulsion type arrester can perform only limited number of operations as during each operation some of the fiber materials is used up .
+•	This type of arrester cannot be mounted on enclosed equipment due to discharge of gases during operation .
+•	Due to the poor volt/am characteristic of the arrester , it is not suitable for protection of expensive equipment .
+
+2.4 MAINTENANCE OF LIGHTNING ARRESTERS
+•	Cleaning the outside of the arrester housing .
+•	The line should be de-energized before handling the arrester .
+•	The earth connection should be checked periodically .
+•	To record the readings of the surge counter .
+•	The line lead is securely fastened to the line conductor and arrester 
+•	The ground lead is securely fastened to the arrester terminal and ground .
+
+</div>
+</div>
+<div id="rightcolumn">
+<div class="innertext">
+The Lightning Arrester has one terminal that is designed to handle very high voltage and another terminal connected to the ground .
+Lightning Arrester are not the same thing as Lightning rods . Lightning rods are used to protect entire buildings and other structures from lightning damage . They are placed with the goal of getting lightning to strike the rod first and dissipate out through a grounding case . 
+
+2.1 WORKING PRINCIPLE OF LIGHTNING ARRESTER 
+The earthing screen and ground wires can well protect the electrical system  against   the  direct  lightning  strokes   but  they  fail   to   provide protection against travelling waves , which may reach the terminal apparatus .The Lightning Arrester or surge diverts provide protection against such surges . A Lightning Arrester or a surge diverted is a protective device ,  which conducts the high voltage surges on power system to the ground .
+It consists of a spark gap in series with a non-linear resistor  . One end of the diverter is connected to the terminal of the equipment to be protected and the other end is effectively grounded .
+The length of the gap is so set that normal voltage is not enough to cause an arc but a dangerously high voltage will break down the air insulation and form an arc .The property of the non-linear resistance is that its resistance increases as voltage ( or current ) increases and vice-versa .
+
+2.2 ADVANTAGE OF LIGHTNING ARRESTER   
+•	They are not very expensive .
+•	They are improved formof rod gap arresters as they block the flow of power frequency follow currents .
+•	They can be easily installed .
+
+2.3 LIMITATIONS 
+•	An expulsion type arrester can perform only limited number of operations as during each operation some of the fiber materials is used up .
+•	This type of arrester cannot be mounted on enclosed equipment due to discharge of gases during operation .
+•	Due to the poor volt/am characteristic of the arrester , it is not suitable for protection of expensive equipment .
+
+2.4 MAINTENANCE OF LIGHTNING ARRESTERS
+•	Cleaning the outside of the arrester housing .
+•	The line should be de-energized before handling the arrester .
+•	The earth connection should be checked periodically .
+•	To record the readings of the surge counter .
+•	The line lead is securely fastened to the line conductor and arrester 
+•	The ground lead is securely fastened to the arrester terminal and ground .
+
+</div>
+</div>
+<div id="footer">Footer</div>
+</div>
+</body>
+</html>
